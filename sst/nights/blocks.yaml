@@ -1,0 +1,14 @@
+title: Executed blocks
+description: Executed Blocks
+enabled: true
+authors:
+  - name: Joaquin Hernandez
+    slack: Joaquin Hernandez
+tags:
+  - nightly
+  - blocks
+parameters:
+  date:
+    type: string
+    description: Date of start of observing night
+    default: "20240201"
