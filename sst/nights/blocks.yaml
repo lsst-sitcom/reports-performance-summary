@@ -4,6 +4,7 @@ enabled: true
 authors:
   - name: Joaquin Hernandez
     slack: Joaquin Hernandez
+RSP_SITE_TYPE: telescope
 tags:
   - nightly
   - blocks
