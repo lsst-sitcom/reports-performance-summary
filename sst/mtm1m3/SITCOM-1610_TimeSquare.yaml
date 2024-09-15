@@ -9,11 +9,11 @@ parameters:
   t_start:
     type: string
     description: Starting time to plot the bump tests
-    default: 2024-09-01T12:00:00
+    default: "2024-09-01T12:00:00"
   t_end:
     type: string
     description: Ending time to plot the bump tests
-    default: 2024-09-15T12:00:00
+    default: "2024-09-15T12:00:00"
   id:
     type: number
     description: Actuator ID
