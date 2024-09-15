@@ -2,7 +2,7 @@ title: M1M3 Actuator bump test trends
 description: Plots the RMS following error of a given actuator vs time
 authors:
   - name: Craig Lage
-    slack: @cslage
+    slack: cslage
 tags:
   - demo
 parameters:
