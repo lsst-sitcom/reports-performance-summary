@@ -1,5 +1,5 @@
 title: M1M3 Actuator bump test trends
-description: Plots the RMS following error of a given actuator vs time
+description: Plots the following errors of a given actuator vs time
 authors:
   - name: Craig Lage
     slack: cslage
@@ -17,4 +17,4 @@ parameters:
   id:
     type: number
     description: Actuator ID
-    default: 409
+    default: 105
