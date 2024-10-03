@@ -1,5 +1,5 @@
-title: MTM1M3 Actuator bump test recent history
-description: Plots the recent failures of all of the actuators - will take 1-2 minutes.
+title: MTM1M3 Hardpoint breakaway recent history
+description: Plots of hardpoint breakaway test results
 authors:
   - name: Craig Lage
     slack: cslage
