@@ -7,6 +7,6 @@ tags:
   - demo
 parameters:
   expId:
-    type: int
+    type: integer
     description: expId for which the status is desired
     default: 2024103100047
