@@ -1,0 +1,12 @@
+title: MTAOS status of a given expId
+description: Returns the AOS status of a given expId
+authors:
+  - name: Craig Lage
+    slack: cslage
+tags:
+  - demo
+parameters:
+  expId:
+    type: integer
+    description: expId for which the status is desired
+    default: 2024103100047
