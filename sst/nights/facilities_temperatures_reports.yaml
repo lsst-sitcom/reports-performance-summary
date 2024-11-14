@@ -1,0 +1,17 @@
+title: Facilities Temperatures Reports
+description: Facilities Temperatures Reports
+enabled: true
+authors:
+  - name: Bruno Quint
+    slack: Bruno Quint
+RSP_SITE_TYPE: telescope
+tags:
+  - nightly
+  - facilities
+  - temperatures
+  - glycol
+parameters:
+  date_obs:
+    type: string
+    description: Date of start of observing night (UTC-12)
+    default: "20241002"
