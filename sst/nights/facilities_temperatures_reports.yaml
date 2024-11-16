@@ -11,7 +11,7 @@ tags:
   - temperatures
   - glycol
 parameters:
-  date_obs:
+  day_obs:
     type: string
     description: Date of start of observing night (UTC-12)
-    default: "20241002"
+    default: "20241101"
