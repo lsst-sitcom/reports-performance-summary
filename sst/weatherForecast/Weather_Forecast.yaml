@@ -11,6 +11,6 @@ parameters:
     description: Day To Forecast
     default: "2024-11-18"
   start_hour:
-      type: str
-      description: starting hour to display forecast (chile local time)
-      default: '06:00'
+    type: str
+    description: starting hour to display forecast (chile local time)
+    default: '06:00'
