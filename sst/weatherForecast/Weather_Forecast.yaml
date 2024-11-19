@@ -1,0 +1,16 @@
+title: Weather Forecast - Temperature Outside the Dome
+description: Forecast the temperature outside the dome for the beginning of the night.
+authors:
+  - name: Johnny
+    slack: jesteves
+tags:
+  - demo
+parameters:
+  day:
+    type: string
+    description: Day To Forecast
+    default: "2024-11-18"
+  start_hour:
+      type: str
+      description: starting hour to display forecast (chile local time)
+      default: '06:00'
