@@ -1,0 +1,12 @@
+title: MTM1M3 Hardpoint oscillations identification 
+description: identification of oscilaltions in the hardpoint forces using wavelets
+authors:
+  - name: Peter Ferguson
+    slack: psferguson
+tags:
+  - demo
+parameters:
+  day_obs:
+    type: integer
+    description: dayobs of day to look for events
+    default: 20241127
