@@ -9,4 +9,4 @@ parameters:
   days_to_plot:
     type: integer
     description: Number of days to look back
-    default: 30
+    default: 5
