@@ -1,0 +1,21 @@
+title: Weather Forecast Temperature Outside the Dome
+description: Provides a forecast to the temperature outside the dome
+enabled: true
+authors:
+  - name: Johnny Esteves
+    slack: Johnny Esteves
+RSP_SITE_TYPE: telescope
+tags:
+  - nightly
+  - facilities
+  - temperatures
+  - glycol
+parameters:
+  day:
+    type: string
+    description: Date of the forecast
+    default: "2024-11-17"
+  start_hour:
+    type: string
+    description: Start hour of the forecast (Local Time)
+    default: "06:00"
