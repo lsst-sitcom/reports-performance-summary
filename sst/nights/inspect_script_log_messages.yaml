@@ -19,8 +19,8 @@ parameters:
   path:
     type: string
     description: Path of the script for which you want to query the logs
-    default: "maintel/track_target.py"
+    default: "auxtel/correct_pointing.py"
   salIndex:
     type: integer
     description: SalIndex of the Script Queue (1=Simonyi, 2=AuxTel, 3=OCS)
-    default: 1
+    default: 2
