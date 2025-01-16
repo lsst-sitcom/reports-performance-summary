@@ -11,7 +11,7 @@ parameters:
   ndays:
     type: string
     description: Number of days or hours to look back
-    default: 1d
+    default: 4d
   client_name:
     type: string
     description: Name of the EFD client
