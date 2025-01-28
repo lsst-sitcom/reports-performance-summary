@@ -1,0 +1,26 @@
+title: Inspect Script Log Messages
+description: Query and analyze script logs for specific script executions
+authors:
+  - name: David Sanmartim
+    slack: dsanmartim
+tags:
+  - night
+  - scripts
+  - logs
+parameters:
+  ndays:
+    type: string
+    description: Number of days or hours to look back
+    default: 4d
+  client_name:
+    type: string
+    description: Name of the EFD client
+    default: "usdf_efd"
+  path:
+    type: string
+    description: Path of the script for which you want to query the logs
+    default: "auxtel/correct_pointing.py"
+  salIndex:
+    type: integer
+    description: SalIndex of the Script Queue (1=Simonyi, 2=AuxTel, 3=OCS)
+    default: 2
