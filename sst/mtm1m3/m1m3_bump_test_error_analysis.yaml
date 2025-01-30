@@ -1,0 +1,18 @@
+title: MTM1M3 Bump Test Error Analysis
+description: It makes an analysis of the failed FAs for recent bump test executions
+authors:
+  - name: David Sanmartim
+    slack: dsanmartim
+tags:
+  - mtm1m3
+  - bump test
+  - error analysis
+parameters:
+  past_time:
+    type: string
+    description: Number of days or hours to look back
+    default: 3d
+  client_name:
+    type: string
+    description: EFD client name ("usdf_efd" or "summit_efd")
+    default: "usdf_efd"
