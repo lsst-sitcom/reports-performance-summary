@@ -1,0 +1,16 @@
+title: Hexapod Following Error
+description: find critical errors and plot actuators position errors
+authors:
+  - name: Bruno Quint
+    slack: bquint
+tags:
+  - demo
+parameters:
+  day_obs:
+    type: integer
+    description: dayobs of day to look for events
+    default: 20250420
+  sal_index:
+    type: integer
+    description: sal index for MTHexapod CSC
+    default: 2
