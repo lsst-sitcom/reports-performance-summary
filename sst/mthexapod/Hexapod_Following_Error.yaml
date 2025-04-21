@@ -1,5 +1,5 @@
 title: Hexapod Following Error
-description: find critical errors and plot actuators position errors
+description: Query log messages and plot actuators position errors.
 authors:
   - name: Bruno Quint
     slack: bquint
@@ -14,3 +14,7 @@ parameters:
     type: integer
     description: sal index for MTHexapod CSC
     default: 2
+  min_log_level:
+    type: integer
+    description: minimum logging level.
+    default: 40
