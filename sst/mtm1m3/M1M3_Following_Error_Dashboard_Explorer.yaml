@@ -1,0 +1,22 @@
+title: MTM1M3 Following Error Dashboard Explorer
+description: A notebook to explore the M1M3 FA following errors.
+authors:
+  - name: David Sanmartim
+    slack: dsanmartim
+tags:
+  - mtm1m3
+  - force actuators
+  - following error
+parameters:
+  dayObs:
+    type: string
+    description: Observation day in format YYYYMMDD
+    default: "20250425"
+  ndays:
+    type: integer
+    description: Number of days to look back,, e.g. 15
+    default: 15
+  client_name:
+    type: string
+    description: EFD client name ("usdf_efd" or "summit_efd")
+    default: "usdf_efd"
