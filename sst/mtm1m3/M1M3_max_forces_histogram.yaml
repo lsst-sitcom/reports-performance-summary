@@ -1,0 +1,18 @@
+title: MTM1M3 Max Forces Histogram
+description: A notebook to make max forces histogram to check M1M3 status every morning
+authors:
+  - name: HyeYun Park
+    slack: hyeyun 
+tags:
+  - mtm1m3
+  - force actuators
+  - following error
+parameters:
+  dayObs:
+    type: string
+    description: Observation day in format YYYYMMDD
+    default: "20250521"
+  bin_number:
+    type: integer
+    description: Bin number for the histogram,, e.g. 100
+    default: 100
