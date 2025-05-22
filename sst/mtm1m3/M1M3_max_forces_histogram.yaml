@@ -2,7 +2,7 @@ title: MTM1M3 Max Forces Histogram
 description: A notebook to make max forces histogram to check M1M3 status every morning
 authors:
   - name: HyeYun Park
-    slack: hyeyun 
+  - slack: hyeyun 
 tags:
   - mtm1m3
   - force actuators
