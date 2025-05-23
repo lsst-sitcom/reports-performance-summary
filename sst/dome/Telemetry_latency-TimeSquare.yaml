@@ -6,11 +6,7 @@ authors:
 tags:
   - demo
 parameters:
-  start_day_obs:
+  day_obs:
     type: number
-    description: Day start observation.
-    default: 20250410
-  end_day_obs:
-    type: number
-    description: Day end observation.
+    description: Observation day.
     default: 20250410
