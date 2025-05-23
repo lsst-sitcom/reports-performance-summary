@@ -10,3 +10,7 @@ parameters:
     type: number
     description: Observation day.
     default: 20250410
+  hist_xlim:
+    type: number
+    description: Limit for the x-axis of the histogram.
+    default: 2
