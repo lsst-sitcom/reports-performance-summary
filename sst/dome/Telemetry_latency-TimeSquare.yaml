@@ -2,7 +2,7 @@ title: Dome Telemetry Timeline and Latency Analysis
 description: This notebook visualizes the telemetry data published by the dome and its sub-systems by generating a timeline plot and a histogram.
 authors:
   - name: Laura Toribio y Bruno Quint
-    slack: @Laura Toribio San Cipriano @Bruno Quint
+    slack: Laura Toribio San Cipriano and Bruno Quint
 tags:
   - demo
 parameters:
