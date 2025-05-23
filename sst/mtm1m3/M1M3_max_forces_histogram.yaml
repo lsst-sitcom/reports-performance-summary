@@ -9,10 +9,10 @@ tags:
   - following error
 parameters:
   day_obs:
-    type: string
+    type: integer
     description: Observation day in format YYYYMMDD
-    default: "20250514"
+    default: 20250514
   bin_number:
-    type: number
+    type: ingeger
     description: Bin number for the histogram,, e.g. 100
     default: 100
