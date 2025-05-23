@@ -8,7 +8,7 @@ tags:
   - force actuators
   - following error
 parameters:
-  day_obs:
+  dayObs:
     type: integer
     description: Observation day in format YYYYMMDD
     default: 20250514
