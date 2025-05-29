@@ -1,12 +1,12 @@
 title: MTM1M3 Hardpoint breakaway recent history
 description: Plots of hardpoint breakaway test results
 authors:
-  - name: Craig Lage
-    slack: cslage
+  - name: Craig Lage and Laura Toribio San Cipriano
+    slack: cslage and Laura Toribio San Cipriano
 tags:
   - demo
 parameters:
-  days_to_plot:
-    type: integer
-    description: Number of days to look back
-    default: 5
+  day_obs:
+    type: number
+    description: Observation day.
+    default: 20250526
