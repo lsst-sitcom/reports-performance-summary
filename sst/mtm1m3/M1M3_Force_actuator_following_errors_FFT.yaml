@@ -10,9 +10,9 @@ tags:
 parameters:
   t_start:
     type: string
-    description: Starting time to plot the bump tests
-    default: "2025-05-27T18:30:15"
+    description: Starting time to plot
+    default: "2025-05-27T18:30:22"
   t_end:
     type: string
-    description: Ending time to plot the bump tests
+    description: Ending time to plot
     default: "2025-05-27T18:30:24"
