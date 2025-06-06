@@ -1,0 +1,18 @@
+title: M1M3 Force Actuator following errors FFT
+description: Compute of FFT (Fast Fourier Transform) of the M1M3 force actuator following error signals over a specified time range
+authors:
+  - name: Nacho Sevilla Noarbe y Laura Toribio San Cipriano
+    slack: nsevilla and laura.toribio
+tags:
+  - m1m3
+  - force actuator
+  - error analysis
+parameters:
+  t_start:
+    type: string
+    description: Starting time to plot the bump tests
+    default: "2025-05-27T18:30:15"
+  t_end:
+    type: string
+    description: Ending time to plot the bump tests
+    default: "2025-05-27T18:30:24"
