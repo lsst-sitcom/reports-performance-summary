@@ -8,11 +8,28 @@ tags:
   - force actuator
   - error analysis
 parameters:
-  t_start:
+  day_obs:
     type: string
-    description: Starting time to plot
-    default: "2025-05-27T18:30:22"
-  t_end:
-    type: string
-    description: Ending time to plot
-    default: "2025-05-27T18:30:24"
+    description: Observation day
+    default: "20250527"
+  threshold_peak:
+    type: int
+    description: minimum value for FFT analysis to trigger an anomaly  
+    default: 800
+  threshold_freq: 
+    type: float
+    description: minimum value of frequency to look for anomalies
+    default: 3.0
+  slew_selector: 
+    type: bool
+    description: true if one wants to look at a specific slew number slew_nb
+    default: False
+  slew_nb:
+    type: int
+    description: slew number to analyze
+    default: 0
+  plot_output:
+    type: bool
+    description: selector to show anomalies on screen (True) or just text output (False)
+    default: True
+    
