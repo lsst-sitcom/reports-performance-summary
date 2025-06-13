@@ -23,7 +23,7 @@ parameters:
   slew_selector: 
     type: boolean
     description: true if one wants to look at a specific slew number slew_nb
-    default: False
+    default: True
   slew_nb:
     type: integer
     description: slew number to analyze
@@ -31,5 +31,5 @@ parameters:
   plot_output:
     type: boolean
     description: selector to show anomalies on screen (True) or just text output (False)
-    default: True
+    default: False
     
