@@ -13,23 +13,23 @@ parameters:
     description: Observation day
     default: "20250527"
   threshold_peak:
-    type: int
+    type: integer
     description: minimum value for FFT analysis to trigger an anomaly  
     default: 800
   threshold_freq: 
-    type: float
+    type: number
     description: minimum value of frequency to look for anomalies
     default: 3.0
   slew_selector: 
-    type: bool
+    type: boolean
     description: true if one wants to look at a specific slew number slew_nb
     default: False
   slew_nb:
-    type: int
+    type: integer
     description: slew number to analyze
     default: 0
   plot_output:
-    type: bool
+    type: boolean
     description: selector to show anomalies on screen (True) or just text output (False)
     default: True
     
