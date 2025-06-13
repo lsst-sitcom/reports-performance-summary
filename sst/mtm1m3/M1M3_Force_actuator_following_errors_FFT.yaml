@@ -9,9 +9,9 @@ tags:
   - error analysis
 parameters:
   day_obs:
-    type: string
+    type: number
     description: Observation day
-    default: "20250527"
+    default: 20250527
   threshold_peak:
     type: integer
     description: minimum value for FFT analysis to trigger an anomaly  
