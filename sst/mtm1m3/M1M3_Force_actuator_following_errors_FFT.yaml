@@ -1,0 +1,35 @@
+title: M1M3 Force Actuator following errors FFT
+description: Compute of FFT (Fast Fourier Transform) of the M1M3 force actuator following error signals for a given day_obs and parameters
+authors:
+  - name: Nacho Sevilla Noarbe y Laura Toribio San Cipriano
+    slack: nsevilla and laura.toribio
+tags:
+  - m1m3
+  - force actuator
+  - error analysis
+parameters:
+  day_obs:
+    type: number
+    description: Observation day
+    default: 20250527
+  threshold_peak:
+    type: integer
+    description: minimum value for FFT analysis to trigger an anomaly  
+    default: 800
+  threshold_freq: 
+    type: number
+    description: minimum value of frequency to look for anomalies
+    default: 3.0
+  slew_selector: 
+    type: boolean
+    description: true if one wants to look at a specific slew number slew_nb
+    default: True
+  slew_nb:
+    type: integer
+    description: slew number to analyze
+    default: 0
+  plot_output:
+    type: boolean
+    description: selector to show anomalies on screen (True) or just text output (False)
+    default: False
+    
