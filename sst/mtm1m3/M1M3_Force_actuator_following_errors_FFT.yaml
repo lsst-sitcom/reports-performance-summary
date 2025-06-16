@@ -1,5 +1,5 @@
 title: M1M3 Force Actuator following errors FFT
-description: Compute of FFT (Fast Fourier Transform) of the M1M3 force actuator following error signals over a specified time range
+description: Compute of FFT (Fast Fourier Transform) of the M1M3 force actuator following error signals for a given day_obs and parameters
 authors:
   - name: Nacho Sevilla Noarbe y Laura Toribio San Cipriano
     slack: nsevilla and laura.toribio
