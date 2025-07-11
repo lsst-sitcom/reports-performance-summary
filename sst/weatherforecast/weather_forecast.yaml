@@ -14,7 +14,7 @@ parameters:
   day:
     type: string
     description: Date of the forecast
-    default: "2024-11-17"
+    default: "2025-07-10"
   # start_hour:
     # type: string
     # description: Start hour of the forecast (Local Time)
