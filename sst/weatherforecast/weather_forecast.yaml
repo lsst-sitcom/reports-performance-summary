@@ -15,7 +15,7 @@ parameters:
     type: string
     description: Date of the forecast
     default: "2024-11-17"
-  start_hour:
-    type: string
-    description: Start hour of the forecast (Local Time)
-    default: "06:00"
+  # start_hour:
+    # type: string
+    # description: Start hour of the forecast (Local Time)
+    # default: "06:00"
