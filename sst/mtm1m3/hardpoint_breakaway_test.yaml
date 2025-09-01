@@ -1,0 +1,12 @@
+title: MTM1M3 Hardpoint Breakaway Test Daily Analysis
+description: Plots of hardpoint breakaway test results for a given dayObs
+authors:
+  - name: Bruno Quint, Craig Lage and Laura Toribio San Cipriano
+    slack: bquint, cslage and Laura Toribio San Cipriano
+tags:
+  - mtm1m3
+parameters:
+  day_obs:
+    type: number
+    description: Observation day.
+    default: 20250804
