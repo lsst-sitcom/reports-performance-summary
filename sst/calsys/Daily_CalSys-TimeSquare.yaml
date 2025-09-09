@@ -1,0 +1,11 @@
+title: Daily Calibration System Checkout 
+description: This notebook visualizes the behavior of the whitelight system and temperature of the Tunable Laser following the Daily CalSys Checkout. It also lists all calibraiton exposures taken within the last 24 horus.
+authors:
+  - name: Parker Fagrelius  
+tags:
+  - demo
+parameters:
+  day_obs:
+    type: number
+    description: Observation day.
+    default: 20250410
