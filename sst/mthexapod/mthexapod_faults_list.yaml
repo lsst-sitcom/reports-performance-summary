@@ -1,4 +1,4 @@
-title: Hexapod Following Error
+title: MTHexapod Faults
 description: Query log messages and plot actuators position errors.
 authors:
   - name: Bruno Quint
@@ -18,3 +18,7 @@ parameters:
     type: integer
     description: minimum logging level.
     default: 40
+  delta_time: 
+    type: integer
+    description: time window for analysis.
+    default: 60
