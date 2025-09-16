@@ -1,0 +1,15 @@
+title: Electrometer Data Viewer
+description: This notebook visualizes the measurements made by a Calibration Electrometer.
+authors:
+  - name: Parker Fagrelius  
+tags:
+  - demo
+parameters:
+  dayobs:
+    type: number
+    description: Observation day.
+    default: 20250910
+  groupid:
+    type: string
+    description: The group id of the Electrometer image you want to view
+    default: 'BT529_O_20250910_000001_106858_001#1'
