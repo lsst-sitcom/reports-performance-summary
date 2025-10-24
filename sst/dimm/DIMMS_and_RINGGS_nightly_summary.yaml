@@ -2,7 +2,7 @@ title: DIMM and RINGSS Nightly Summary
 description: A collection of analysis used to better understand the health of our DIMM systems, the correlation between the DIMMs and RINGSS, and our site seeing.
 authors:
   - name: Bruno Quint
-    slack: @bquint
+    slack: bquint
 tags:
   - DIMM
   - RINGSS
