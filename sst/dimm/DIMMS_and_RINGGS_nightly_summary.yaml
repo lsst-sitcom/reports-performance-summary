@@ -7,10 +7,14 @@ tags:
   - DIMM
   - RINGSS
 parameters:
-  day_obs:
+  day_obs_start:
     type: number
-    description: Observation day.
-    default: 20251021
+    description: Start observation day.
+    default: 20251020
+  day_obs_end:
+    type: number
+    description: End observation day
+    default: 20251025
   maximum_elevation_angle:
     type: number
     description: Maximum elevation angle to consider for filtering data.
