@@ -11,3 +11,7 @@ parameters:
     type: number
     description: Observation day.
     default: 20251021
+  maximum_elevation_angle:
+    type: number
+    description: Maximum elevation angle to consider for filtering data.
+    default: 85
