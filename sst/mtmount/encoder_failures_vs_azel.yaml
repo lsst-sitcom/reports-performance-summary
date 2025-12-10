@@ -1,0 +1,22 @@
+title: Telescope Encoder Warnings/Faults Vs Position
+description: Plots histograms that show where the telescope az/el encoder tapes need cleaning.
+authors:
+  - name: Bruno Quint
+    slack: bquint
+  - name: Laura Toribio San Cipriano
+    slack: 
+tags:
+  - demo
+parameters:
+  DAY_OBS_START:
+    type: integer
+    description: Day Obs where the analysis should begin.
+    default: 20251201
+  DAY_OBS_END:
+    type: integer
+    description: Day Obs where the analysis should end.
+    default: 20251209
+  TIME_WINDOW_FOR_TELEMETRY:
+    type: string
+    description: Delta time as input for Astropy TimeDelta.
+    default: "10s"
