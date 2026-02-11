@@ -1,0 +1,16 @@
+title: FWHM vs DIMMs Seeing - Single Night
+description: Compare the median FWHM measured across all detectors in LSSTCam with the seeing measured by both DIMMs over several nights.
+authors:
+  - name: Bruno Quint
+    slack: bquint
+tags:
+  - dimm
+parameters:
+  day_obs_start:
+    type: integer
+    description: starting dayobs of day to look for events
+    default: 20251001
+  day_obs_end:
+    type: integer
+    description: ending dayobs of day to look for events
+    default: 20260131
