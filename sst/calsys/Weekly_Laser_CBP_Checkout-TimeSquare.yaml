@@ -1,0 +1,11 @@
+title: Weekly Laser and CBP Checkout (BLOCK-T683)
+description: This notebook visualizes the outcome of the weekly calibration system test BLOCK-T683. It checks electrometer signals from the laser functional scan, TunableLaser wavelength telemetry, CBP azimuth/elevation/focus/mask motion tests, and component summary states.
+authors:
+  - name: Parker Fagrelius
+tags:
+  - demo
+parameters:
+  day_obs:
+    type: number
+    description: Observation day.
+    default: 20250410
