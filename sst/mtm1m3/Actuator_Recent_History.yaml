@@ -1,12 +1,12 @@
 title: MTM1M3 Actuator bump test recent history
 description: Plots the recent failures of all of the actuators - will take 1-2 minutes.
 authors:
-  - name: Craig Lage
-    slack: cslage
+  - name: Craig Lage and Laura Toribio San Cipriano
+    slack: cslage and laura.toribio
 tags:
   - demo
 parameters:
-  days_to_plot:
-    type: integer
-    description: Number of days to look back
-    default: 30
+  day_obs:
+    type: number
+    description: Observation day.
+    default: 20250526
