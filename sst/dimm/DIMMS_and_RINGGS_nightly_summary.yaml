@@ -1,0 +1,21 @@
+title: DIMM and RINGSS Nightly Summary
+description: A collection of analysis used to better understand the health of our DIMM systems, the correlation between the DIMMs and RINGSS, and our site seeing.
+authors:
+  - name: Bruno Quint
+    slack: bquint
+tags:
+  - DIMM
+  - RINGSS
+parameters:
+  day_obs_start:
+    type: number
+    description: Start observation day.
+    default: 20251020
+  day_obs_end:
+    type: number
+    description: End observation day
+    default: 20251025
+  maximum_elevation_angle:
+    type: number
+    description: Maximum elevation angle to consider for filtering data.
+    default: 85
